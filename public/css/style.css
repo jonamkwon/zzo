@@ -1,0 +1,195 @@
+
+body {
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 20px;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+.topbar .header {
+    background-color: #F8F8F8;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 9px 0 0;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+input.span6, textarea.span6 {
+    display: inline-block;
+    float: none;
+    margin-left: 0;
+    width: 330px;
+}
+
+.container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+	width: 80%;
+}
+
+.span4 {
+    width: 250px;
+}
+
+.span6 {
+    width: 340px;
+}
+
+input, textarea, .uneditable-input {
+    color: #333333;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 7px;
+}
+
+input, textarea {
+    -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+input, textarea, select, .uneditable-input {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #666666;
+    display: inline-block;
+    font-size: 13px;
+    height: 18px;
+    line-height: 18px;
+    padding: 4px;
+    width: 210px;
+}
+
+.block.small.login {
+    margin-bottom: 18px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    width: 350px;
+}
+
+.block.small.register {
+    margin-bottom: 18px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    width: 350px;
+}
+
+.block.small.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block .block_head {
+    background-color: #EEEEEE;
+    background-image: -moz-linear-gradient(center top , #F5F5F5 0%, #EEEEEE 100%);
+    background-repeat: repeat-x;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px 4px 4px 4px;
+    height: 36px;
+    width: 100%;
+    padding: 10px;
+}
+
+.block .block_head h2 {
+	padding: 5px;
+}
+
+.block .block_content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    overflow: hidden;
+    padding: 10px;
+    width: 100%;
+}
+
+div.center {
+	text-align: center;
+}
+
+div.left {
+	text-align: left;
+}
+
+div.right {
+	text-align: right;
+}
+
+div.login-or-signup {
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.row {
+    margin-left: 0px;
+}
+
+select {
+	padding: 5px;
+	height: auto;
+}
+
+div.scaffold h2 {
+	margin: 10px;
+}
+.categoryContent{position:relative}
+.categoryContent a{display:block;text-decoration:none}
+.categoryContent h3{text-indent:-9999em;position:absolute}
+
+.categoryContent .categoryDeals .dealList ul{margin-top:0}
+.dealList li{float:left;width:316px;margin-top:15px;margin-right:16px}
+.travel 
+.dealList li{width:484px;margin-right:12px}
+.noProduct{width:491px;margin:60px auto 600px}
+.categoryContent .categoryDeals{width:980px;height:initial;margin:0 auto;margin-bottom:40px}
+.categoryContent .categoryDeals .categoryLabel{height:28px;margin-left:3px;text-indent:-9999em}
+.categoryContent.shopping .categoryDeals .categoryLabel{background:url(//imgs.coupangcdn.com/image/static/shopping/bg_shopping_sprite_20131010.png) 0 0 no-repeat}
+.categoryContent.shopping .categoryDeals.itemLabelSpecial .categoryLabel{width:150px;background-position:-20px -20px}
+.categoryContent.shopping .categoryDeals.itemLabelN .categoryLabel{width:140px;background-position:-180px -20px}
+.categoryContent.shopping .categoryDeals.itemLabelO .categoryLabel{width:140px;background-position:-330px -20px}
+.categoryContent.shopping .categoryDeals.itemLabelP .categoryLabel{width:140px;background-position:-480px -20px}.categoryContent.shopping .categoryDeals.itemLabelQ .categoryLabel{width:140px;background-position:-630px -20px}.categoryContent.shopping .categoryDeals.itemLabelR .categoryLabel{width:140px;background-position:-780px -20px}.categoryContent.shopping .categoryDeals.itemLabelS .categoryLabel{width:150px;background-position:-930px -20px}.categoryContent.shopping .categoryDeals.itemLabelT .categoryLabel{width:143px;background-position:-20px -58px}.categoryContent.shopping .categoryDeals.itemLabelU .categoryLabel{width:140px;background-position:-180px -58px}.categoryContent.shopping .categoryDeals.itemLabelV .categoryLabel{width:140px;background-position:-330px -58px}.categoryContent.shopping .categoryDeals.itemLabelW .categoryLabel{width:140px;background-position:-480px -58px}.categoryContent.shopping .categoryDeals.itemLabelX .categoryLabel{width:140px;background-position:-630px -58px}.categoryContent.shopping .categoryDeals.itemLabelY .categoryLabel{width:140px;background-position:-780px -58px}.categoryContent.shopping .categoryDeals.itemLabelZ .categoryLabel{width:70px;background-position:-930px -58px}.categoryContent.local .categoryDeals .categoryLabel{background:url(//imgs.coupangcdn.com/image/static/category/bg_local_stripe_130912_testb.png) 0 0 no-repeat;width:128px;background-position:0 -601px}.categoryContent.local .categoryDeals .categoryLabel{width:115px;background-position:-4px 0;float:left}.categoryContent.local .categoryDeals.special .categoryLabel{width:115px;background-position:-17px -20px}.categoryContent.local .categoryDeals.national .categoryLabel{width:115px;background-position:-168px -20px}.categoryContent.local .categoryDeals.incheon .categoryLabel{width:115px;background-position:-301px -20px}.categoryContent.local .categoryDeals.daegu .categoryLabel{width:115px;background-position:-430px -20px}.categoryContent.local .categoryDeals.daegeon .categoryLabel{width:115px;background-position:-18px -58px}.categoryContent.local .categoryDeals.gangwon .categoryLabel{width:115px;background-position:-148px -58px}.categoryContent.travel .categoryDeals .categoryLabel{background:url(//imgs.coupangcdn.com/image/static/shopping/bg_travel_sprite_20131010.png) no-repeat}.categoryContent.travel .categoryDeals .categoryLabel{width:60px;background-position:-20px -20px}.categoryContent.travel .categoryDeals.overseas .categoryLabel{width:110px;background-position:-90px -20px}.categoryContent.travel .categoryDeals.hotel .categoryLabel{width:138px;background-position:-20px -58px}.categoryContent.travel .categoryDeals.pension .categoryLabel{width:112px;background-position:-210px -58px}.categoryContent.travel .categoryDeals.domestics .categoryLabel{width:110px;background-position:-210px -20px}.categoryContent.travel .categoryDeals.jeju .categoryLabel{width:110px;background-position:-330px -20px}.categoryContent.travel .categoryDeals.leisure .categoryLabel{width:140px;background-position:-450px -20px}.categoryContent.travel .categoryDeals.lodge .categoryLabel{width:60px;background-position:-20px -58px}.categoryContent.travel .categoryDeals.premium .categoryLabel{width:100px;background-position:-330px -58px}.categoryContent.travel.sub.oversea .categoryDeals .categoryLabel{width:53px;background-position:-90px -21px;float:left}.categoryContent.culture .categoryDeals .categoryLabel{background:url(//imgs.coupangcdn.com/image/static/header/newgnb/bg_tour_culture_sprite_130828.png) 0 0 no-repeat;width:53px;background-position:-20px -21px}.categoryContent.culture .categoryDeals .categoryLabel{width:57px;background-position:0 0}.categoryContent.culture .categoryDeals.musical .categoryLabel{width:137px;background-position:-71px 0}.categoryContent.culture .categoryDeals.concert .categoryLabel{width:162px;background-position:-229px 0}.categoryContent.culture .categoryDeals.experience .categoryLabel{width:177px;background-position:0 -38px}.categoryContent.culture .categoryDeals.movie .categoryLabel{width:138px;background-position:-195px -38px}.categoryContent .categoryDeals .subCategoryTabList{margin:15px 0 0 0;position:relative;background:url(//imgs.coupangcdn.com/image/static/common/bg_tab_sprite_130910.png) 0 -200px repeat-x}.categoryContent .categoryDeals .subCategoryTabList.noTab{margin:0;border-bottom:0}.categoryContent .categoryDeals .subCategoryTabList.noTab .sortByList{width:auto;margin-top:-13px;right:5px}.categoryContent .categoryDeals .subCategoryTabList .tab{float:left;text-align:center;margin-right:2px;width:107px;height:39px;line-height:39px;background:url(//imgs.coupangcdn.com/image/static/common/bg_tab_sprite_130910.png) 0 -50px no-repeat}.categoryContent .categoryDeals .subCategoryTabList .tab.active{background-position:0 -100px}.categoryContent .categoryDeals .subCategoryTabList .tab.zero{background-position:0 -150px}.categoryContent .categoryDeals .subCategoryTabList .tab a{color:#55575f;font-size:12px}.categoryContent .categoryDeals .subCategoryTabList .tab span{color:#777881;font:normal 10px 'tahoma';margin-left:3px}.categoryContent .categoryDeals .subCategoryTabList .tab:hover a{color:#0085da;font-size:12px;font-weight:bold}.categoryContent .categoryDeals .subCategoryTabList .tab.active a{color:#0085da;font-size:12px;font-weight:bold}.categoryContent .categoryDeals .subCategoryTabList .tab.zero:hover a{cursor:default;font-weight:normal;color:#55575f}.categoryContent .categoryDeals .subCategoryTabList .tab.active{cursor:pointer}.categoryContent .categoryDeals .subCategoryTabList .tab:hover{cursor:pointer}.categoryContent .categoryDeals .subCategoryTabList .sortByList{float:right;clear:both;margin-top:15px;margin-right:3px;right:0;display:block}.categoryContent .categoryDeals .subCategoryTabList .sortByList .sortBy{float:left;background:url(//imgs.coupangcdn.com/image/static/common/bg_tab_sprite_130910.png) 0 -18px no-repeat;padding:0 10px}.categoryContent .categoryDeals .subCategoryTabList .sortByList .sortBy:first-child{background:0}.categoryContent .categoryDeals .subCategoryTabList .sortByList .sortBy:last-child{padding-right:0}.categoryContent .categoryDeals .subCategoryTabList .sortByList .sortBy a{color:#55575f;font-size:11px;display:block;height:100%}.categoryContent .categoryDeals .subCategoryTabList .sortByList .sortBy.active a{color:#0085da}.categoryContent .categoryDeals .subCategoryTabList .sortByList .sortBy.active .activeSimbol{float:left;width:9px;height:8px;background:url(//imgs.coupangcdn.com/image/static/common/bg_tab_sprite_130910.png) 0 1px no-repeat;padding:0 3px 1px 2px;display:inline-block}.categoryContent.local .categoryDeals .subCategoryTabList .sortByList{width:auto}.categoryContent.travel.sub.oversea .categoryDeals .subCategoryTabList{margin-bottom:0;border-bottom:0}.categoryContent.travel.sub.oversea .categoryDeals .subCategoryTabList .sortByList{width:auto;margin-top:12px;right:0;position:absolute}.categoryContent.local .categoryDeals .subCateLabelBox{float:left;height:100%;line-height:28px}.categoryContent.local .categoryDeals .subCateLabelBox .subCateLabel{font-size:12px;color:#55575f;font-weight:bold}.categoryContent.local .categoryDeals .subCateLabelBox .subCateLabel em{font-weight:bold;color:#95979f}.categoryContent.local .localList{width:978px;margin:-30px auto 20px;padding:17px 0;background-color:#fff;border:1px solid #d6d6d6;border-top:0}.categoryContent.local .localList .column{width:194px;height:100%;border-right:1px solid #e8e8e8;float:left}.categoryContent.local .localList .column.column5{border-right:0}.categoryContent.local .localList .column a:hover{text-decoration:none}.categoryContent.local .localList .column p{height:19px;line-height:20px;margin:1px 2px 2px 2px;padding-left:27px}.categoryContent.local .localList .column p.local{background:url(//imgs.coupangcdn.com/image/static/category/bg_local_stripe_130829.png) 0 0 no-repeat;margin:0 2px 2px 0;background-position:-376px -160px;color:#33353d}.categoryContent.local .localList .column p.local:hover{background-color:#ebebeb}.categoryContent.local .localList .column p.local.active{background-color:#0085da;background-position:-376px -122px;color:#fff}.categoryContent.local .localList .column p.local.active .dealNum{color:#9bdcff}.categoryContent.local .localList .column p.local.topCategory{background-position:-376px -139px;margin-bottom:3px;font-weight:bold}.categoryContent.local .localList .column p.local.topCategory.active{background-color:#0085da;background-position:-376px -101px;color:#fff}.categoryContent.local .localList .column p.local.topCategory.active .dealNum{color:#9bdcff}.categoryContent.local .localList .column p.local.topCategory .dealNum{font:normal 9px 'tahoma';color:#0085da}.categoryContent.local .localList .column p.local .dealNum{margin-left:8px;font:normal 9px 'tahoma';color:#95979f}
+.categoryContent .dealsort a{display:inline}
+
+.categoryContent .categoryDeals{width:980px;height:initial;margin:0 auto 40px}
+.categoryContent .categoryDeals .categoryLabel{width:133px;height:28px;margin-left:3px;background:url("//imgs.coupangcdn.com/image/static/shopping/bg_shopping_sprite_20130912_testb.png") no-repeat -20px -21px;text-indent:-9999em}
+
+.shopping .itemLabelSpecial .itemLabel{background-position:-7px -300px}.shopping .itemLabelSpecial .itemLabel:hover{background-position:-7px -400px}.shopping .itemLabelSpecial.active .itemLabel{background-position:-7px -500px}
+
+.categoryContent.shopping .categoryDeals .categoryLabel{background:url(//imgs.coupangcdn.com/image/static/shopping/bg_shopping_sprite_20131010.png) 0 0 no-repeat}
+#wrap{width:100%;background-color:#f0f0f0}
+#wrap.hotdealBg{background:url(//imgs.coupangcdn.com/image/static/header/bg_line_hotdeal2.gif)repeat-x}#wrap.hotdealBg.gtb{background:url(//imgs.coupangcdn.com/image/static/header/bg_line_hotdeal2.gif)repeat-x 0 29px}
+#customSection .wrap_list_paging{width:980px;text-align:center}#customSection .wrap_list_paging .btn{float:left;display:inline-block;width:16px;height:16px;margin:0 5px;vertical-align:middle;cursor:pointer;background:url(//imgs.coupangcdn.com/image/category/bg_main_stripe_130327.png) no-repeat}#customSection .wrap_list_paging .prevBtn{background-position:-570px -830px}#customSection .wrap_list_paging .nextBtn{background-position:-586px -830px}#customSection .wrap_list_paging span{display:inline-block;width:10px;height:10px;margin:3px 5px 0 0;vertical-align:middle;background:url(//imgs.coupangcdn.com/image/category/bg_main_stripe_130327.png) no-repeat -550px -830px}#customSection .wrap_list_paging span.on{background:url(//imgs.coupangcdn.com/image/category/bg_main_stripe_130327.png) no-repeat -560px -830px}
+
+.dealunit-body,.dealunit-foot-box,.dealList ul{*zoom:1}.dealunit-body:before,.dealunit-foot-box:before,.dealList ul:before,.dealunit-body:after,.dealunit-foot-box:after,.dealList ul:after{content:'';display:table}.dealunit-body:after,.dealunit-foot-box:after,.dealList ul:after{clear:both}
+.dealList ul{width:996px;margin-top:-15px}.categoryContent .categoryDeals .dealList ul{margin-top:0}.dealList li{float:left;width:316px;margin-top:15px;margin-right:16px}.travel .dealList li{width:484px;margin-right:12px}.noProduct{width:491px;margin:60px auto 600px}
+.dealList li .mallCoupon .more,.dealList li .mallCoupon .couponpaging span.move a{background-image:url('//imgs.coupangcdn.com/image/static/common/bg_home_sprite131210.png');background-repeat:no-repeat}#home{width:100%;background-color:#f0f0f0}
+
+.dealunit-body,.dealunit-foot-box,.dealList ul{*zoom:1}.dealunit-body:before,.dealunit-foot-box:before,.dealList ul:before,.dealunit-body:after,.dealunit-foot-box:after,.dealList ul:after{content:'';display:table}.dealunit-body:after,.dealunit-foot-box:after,.dealList ul:after{clear:both}.dealunit-best,.dealunit-soldoutsoon,.dealunit-type__event,.dealunit-type__special,.dealunit-type__use,.dealunit-type__discount,.dealunit-type__change,.dealunit-type__flat,.dealunit-type__contract,.dealunit-type__present,.dealunit-label{background-image:url(//imgs.coupangcdn.com/image/static/common/bg_deal_sprite_131217.png);background-repeat:no-repeat}.dealunit{position:relative;display:block;width:100%;height:461px;box-shadow:1px 1px 2px #e7e7e7;background-color:#fff;cursor:pointer}.dealunit:hover{text-decoration:none}.dealunit:hover .dealunit-border{background-color:#0085da}.dealunit:hover .dealunit-border__top,.dealunit:hover .dealunit-border__bottom{height:2px}.dealunit:hover .dealunit-border__left,.dealunit:hover .dealunit-border__right{width:2px}.dealunit-link{display:block;height:100%;padding-left:12px;padding-right:12px;cursor:pointer}.dealunit-link:hover{text-decoration:none}.dealunit-popup{position:absolute;z-index:1;right:14px;top:378px;display:block;width:30px;height:18px;background:url(//imgs.coupangcdn.com/image/static/www/common/btn_newwindow.png) no-repeat;text-indent:-9999em}.dealunit-popup:hover{background-position:-30px 0}.dealunit-border{position:absolute}.dealunit-border__top,.dealunit-border__bottom{width:100%;height:1px}.dealunit-border__left,.dealunit-border__right{height:100%;width:1px}.dealunit-border__top,.dealunit-border__left,.dealunit-border__right{top:0;background-color:#d6d6d6}.dealunit-border__top,.dealunit-border__left,.dealunit-border__bottom{left:0}.dealunit-border__right{right:0}.dealunit-border__bottom{bottom:0;background-color:#b8b8b8}.dealunit-best{position:absolute;z-index:1;left:11px;top:0;width:40px;height:52px;text-indent:-9999em}.dealunit-best__no1{background-position:0 -185px}.dealunit-best__no2{background-position:-58px -185px}.dealunit-best__no3{background-position:-116px -185px}.dealunit-best__no4{background-position:0 -238px}.dealunit-best__no5{background-position:-58px -238px}.dealunit-best__no6{background-position:-116px -238px}.dealunit-best__no7{background-position:0 -292px}.dealunit-best__no8{background-position:-58px -292px}.dealunit-best__no9{background-position:-116px -292px}.dealunit-best__no10{background-position:0 -346px}.dealunit-thumb{padding-top:12px}.dealunit-thumb-box{position:relative}.dealunit-soldout{position:absolute;left:0;top:0;width:100%;height:100%}.dealunit-soldoutsoon{width:100%;height:50px;position:absolute;left:0;bottom:0;background-position:0 -400px;text-indent:-9999px}.travel .dealunit-soldoutsoon{background-position:0 -500px}.dealunit-soldoutshadow{width:100%;height:100%;position:absolute;left:0;top:0;background-color:#000;filter:Alpha(opacity=20);opacity:.2}.dealunit-soldouticon{width:127px;height:199px;position:absolute;left:50%;top:0;margin-left:-63px;background:url(//imgs.coupangcdn.com/image/static/common/ico_today_soldout.png) no-repeat left top;text-indent:-9999px}.dealunit-badges{position:absolute;right:5px;bottom:1px}.dealunit-badge{float:right;display:block;width:75px;height:80px;background:url(//imgs.coupangcdn.com/image/static/www/common/badge_20131205.png) no-repeat;text-indent:-9999px}.dealunit-badge__fixed{background-position:-164px 0}.dealunit-badge__dcdFree{background-position:-790px 0}.dealunit-badge__bycoupang{width:105px;height:82px;background-position:-880px -10px}.dealunit-decoline{position:absolute;left:0;top:0;overflow:hidden;width:100%}.dealunit-decoline img{display:block}.dealunit-head{margin-top:14px}.dealunit-desc{font-size:11px;line-height:14px;color:#95979f}.dealunit-title{overflow:hidden;height:17px;line-height:17px;padding-top:3px;font-weight:bold;font-size:14px;letter-spacing:-1px}.dealunit-body{padding-top:7px}.dealunit-type{float:left}.dealunit-type__event,.dealunit-type__special,.dealunit-type__use,.dealunit-type__discount,.dealunit-type__change,.dealunit-type__flat,.dealunit-type__contract,.dealunit-type__present{float:left;height:35px;margin-top:8px;margin-right:6px;text-indent:-9999em}.dealunit-type__percent{float:left;height:35px;margin-right:10px;font-family:Tahoma;font-weight:normal;font-size:36px;letter-spacing:-1px;color:#e30f13}.dealunit-type__percent .unit{font-size:22px}.dealunit-type__event{width:59px;background-position:-4px -105px}.dealunit-type__special{width:62px;background-position:-75px -105px}.dealunit-type__use{width:58px;background-position:-144px -105px}.dealunit-type__discount{width:58px;background-position:-214px -105px}.dealunit-type__change{width:61px;background-position:-3px -145px}.dealunit-type__flat{width:61px;background-position:-73px -145px}.dealunit-type__contract{width:33px;margin-top:3px;background-position:-144px -145px}.dealunit-type__present{width:59px;background-position:-213px -145px}.dealunit-price{float:left;max-width:70%;margin-top:3px;line-height:1.4em}.travel .dealunit-price{max-width:80%}.dealunit-price-originalvalue{height:18px;font-family:Tahoma;font-size:14px;color:#95979f}.dealunit-price-originalvalue .unit{font-size:12px}.dealunit-price-value{margin-bottom:5px;color:#33353d;font-family:Tahoma;font-weight:bold;font-size:18px}.dealunit-price-value .unit{font-size:14px}.dealunit-price-desc{overflow:hidden;width:100%;color:#95979f;font-size:11px;line-height:13px;white-space:nowrap;text-overflow:ellipsis}.dealunit-price-unitprice{color:#f78000;font-family:Tahoma;letter-spacing:-1px}.dealunit-price-unitprice .value{font-size:14px}.dealunit-foot{position:absolute;bottom:0;left:0;width:100%;height:34px}.dealunit-foot-box{margin:0 12px;padding-top:7px;border-top:1px solid #d6d6d6}.dealunit-labels{float:left}.dealunit-label{float:left;width:51px;height:18px;text-indent:-9999em}.dealunit-label__encore{width:30px;background-position:-500px -40px}.dealunit-label__free1{background-position:-400px 0}.dealunit-label__free2{width:82px;background-position:-400px -20px}.dealunit-label__free3{background-position:-400px -40px}.dealunit-label__todayopen{background-position:-301px 0}.dealunit-label__todayclose{background-position:-300px -20px}.dealunit-label__usenow{background-position:-500px 0}.dealunit-label__point{width:60px;background-position:-500px -20px}.dealunit-buyinfo{float:right;padding-right:5px;font-size:11px;line-height:15px;color:#999}.dealunit-buyinfo-count{color:#0085da;font-family:Tahoma;font-weight:bold;font-size:15px}
+
+#personalization .dealunit-type__special{background-image:url(//imgs.coupangcdn.com/image/static/search/bg_search_sprite_140103.png);background-repeat:no-repeat}.search-top{width:980px;margin:0 auto}
+#personalization .dealunit-type__percent{position:relative;top:-5px;float:none;margin-right:0;letter-spacing:0;font-size:28px;vertical-align:middle}#personalization .dealunit-type__special{float:none;display:inline-block;width:52px;height:19px;margin:0 4px 0 0;text-indent:0;font-size:0;line-height:0;vertical-align:middle;background-position:-160px -80px}
+
+.dealList ul{ 
+	margin:0 0 0 0px;
+    list-style:none; 
+} 
+.categoryContent .categoryDeals .categoryLabel{height:28px;margin-left:3px;text-indent:-9999em}.categoryContent.shopping .categoryDeals .categoryLabel{background:url(//imgs.coupangcdn.com/image/static/shopping/bg_shopping_sprite_20131010.png) 0 0 no-repeat}.categoryContent.shopping .categoryDeals.itemLabelSpecial .categoryLabel{width:150px;background-position:-20px -20px}.categoryContent.shopping .categoryDeals.itemLabelN .categoryLabel{width:140px;background-position:-180px -20px}.categoryContent.shopping .categoryDeals.itemLabelO .categoryLabel{width:140px;background-position:-330px -20px}.categoryContent.shopping .categoryDeals.itemLabelP .categoryLabel{width:140px;background-position:-480px -20px}.categoryContent.shopping .categoryDeals.itemLabelQ .categoryLabel{width:140px;background-position:-630px -20px}.categoryContent.shopping .categoryDeals.itemLabelR .categoryLabel{width:140px;background-position:-780px -20px}.categoryContent.shopping .categoryDeals.itemLabelS .categoryLabel{width:150px;background-position:-930px -20px}.categoryContent.shopping .categoryDeals.itemLabelT .categoryLabel{width:143px;background-position:-20px -58px}.categoryContent.shopping .categoryDeals.itemLabelU .categoryLabel{width:140px;background-position:-180px -58px}.categoryContent.shopping .categoryDeals.itemLabelV .categoryLabel{width:140px;background-position:-330px -58px}.categoryContent.shopping .categoryDeals.itemLabelW .categoryLabel{width:140px;background-position:-480px -58px}.categoryContent.shopping .categoryDeals.itemLabelX .categoryLabel{width:140px;background-position:-630px -58px}.categoryContent.shopping .categoryDeals.itemLabelY .categoryLabel{width:140px;background-position:-780px -58px}.categoryContent.shopping .categoryDeals.itemLabelZ .categoryLabel{width:70px;background-position:-930px -58px}.categoryContent.local .categoryDeals .categoryLabel{background:url(//imgs.coupangcdn.com/image/static/category/bg_local_stripe_130912_testb.png) 0 0 no-repeat;width:128px;background-position:0 -601px}.categoryContent.local .categoryDeals .categoryLabel{width:115px;background-position:-4px 0;float:left}.categoryContent.local .categoryDeals.special .categoryLabel{width:115px;background-position:-17px -20px}.categoryContent.local .categoryDeals.national .categoryLabel{width:115px;background-position:-168px -20px}.categoryContent.local .categoryDeals.incheon .categoryLabel{width:115px;background-position:-301px -20px}.categoryContent.local .categoryDeals.daegu .categoryLabel{width:115px;background-position:-430px -20px}.categoryContent.local .categoryDeals.daegeon .categoryLabel{width:115px;background-position:-18px -58px}.categoryContent.local .categoryDeals.gangwon .categoryLabel{width:115px;background-position:-148px -58px}.categoryContent.travel .categoryDeals .categoryLabel{background:url(//imgs.coupangcdn.com/image/static/shopping/bg_travel_sprite_20131010.png) no-repeat}.categoryContent.travel .categoryDeals .categoryLabel{width:60px;background-position:-20px -20px}.categoryContent.travel .categoryDeals.overseas .categoryLabel{width:110px;background-position:-90px -20px}.categoryContent.travel .categoryDeals.hotel .categoryLabel{width:138px;background-position:-20px -58px}.categoryContent.travel .categoryDeals.pension .categoryLabel{width:112px;background-position:-210px -58px}.categoryContent.travel .categoryDeals.domestics .categoryLabel{width:110px;background-position:-210px -20px}.categoryContent.travel .categoryDeals.jeju .categoryLabel{width:110px;background-position:-330px -20px}.categoryContent.travel .categoryDeals.leisure .categoryLabel{width:140px;background-position:-450px -20px}.categoryContent.travel .categoryDeals.lodge .categoryLabel{width:60px;background-position:-20px -58px}.categoryContent.travel .categoryDeals.premium .categoryLabel{width:100px;background-position:-330px -58px}.categoryContent.travel.sub.oversea .categoryDeals .categoryLabel{width:53px;background-position:-90px -21px;float:left}.categoryContent.culture .categoryDeals .categoryLabel{background:url(//imgs.coupangcdn.com/image/static/header/newgnb/bg_tour_culture_sprite_130828.png) 0 0 no-repeat;width:53px;background-position:-20px -21px}.categoryContent.culture .categoryDeals .categoryLabel{width:57px;background-position:0 0}.categoryContent.culture .categoryDeals.musical .categoryLabel{width:137px;background-position:-71px 0}.categoryContent.culture .categoryDeals.concert .categoryLabel{width:162px;background-position:-229px 0}.categoryContent.culture .categoryDeals.experience .categoryLabel{width:177px;background-position:0 -38px}.categoryContent.culture .categoryDeals.movie .categoryLabel{width:138px;background-position:-195px -38px}
+.categoryContent .categoryDeals .subCategoryTabList{margin:15px 0 0 0;position:relative;background:url(//imgs.coupangcdn.com/image/static/common/bg_tab_sprite_130910.png) 0 -200px repeat-x}.categoryContent .categoryDeals .subCategoryTabList.noTab{margin:0;border-bottom:0}.categoryContent .categoryDeals .subCategoryTabList.noTab .sortByList{width:auto;margin-top:-13px;right:5px}.categoryContent .categoryDeals .subCategoryTabList .tab{float:left;text-align:center;margin-right:2px;width:107px;height:39px;line-height:39px;background:url(//imgs.coupangcdn.com/image/static/common/bg_tab_sprite_130910.png) 0 -50px no-repeat}.categoryContent .categoryDeals .subCategoryTabList .tab.active{background-position:0 -100px}.categoryContent .categoryDeals .subCategoryTabList .tab.zero{background-position:0 -150px}.categoryContent .categoryDeals .subCategoryTabList .tab a{color:#55575f;font-size:12px}.categoryContent .categoryDeals .subCategoryTabList .tab span{color:#777881;font:normal 10px 'tahoma';margin-left:3px}.categoryContent .categoryDeals .subCategoryTabList .tab:hover a{color:#0085da;font-size:12px;font-weight:bold}.categoryContent .categoryDeals .subCategoryTabList .tab.active a{color:#0085da;font-size:12px;font-weight:bold}.categoryContent .categoryDeals .subCategoryTabList .tab.zero:hover a{cursor:default;font-weight:normal;color:#55575f}.categoryContent .categoryDeals .subCategoryTabList .tab.active{cursor:pointer}.categoryContent .categoryDeals .subCategoryTabList .tab:hover{cursor:pointer}.categoryContent .categoryDeals .subCategoryTabList .sortByList{float:right;clear:both;margin-top:15px;margin-right:3px;right:0;display:block}.categoryContent .categoryDeals .subCategoryTabList .sortByList .sortBy{float:left;background:url(//imgs.coupangcdn.com/image/static/common/bg_tab_sprite_130910.png) 0 -18px no-repeat;padding:0 10px}.categoryContent .categoryDeals .subCategoryTabList .sortByList .sortBy:first-child{background:0}.categoryContent .categoryDeals .subCategoryTabList .sortByList .sortBy:last-child{padding-right:0}.categoryContent .categoryDeals .subCategoryTabList .sortByList .sortBy a{color:#55575f;font-size:11px;display:block;height:100%}.categoryContent .categoryDeals .subCategoryTabList .sortByList .sortBy.active a{color:#0085da}.categoryContent .categoryDeals .subCategoryTabList .sortByList .sortBy.active .activeSimbol{float:left;width:9px;height:8px;background:url(//imgs.coupangcdn.com/image/static/common/bg_tab_sprite_130910.png) 0 1px no-repeat;padding:0 3px 1px 2px;display:inline-block}.categoryContent.local .categoryDeals .subCategoryTabList .sortByList{width:auto}.categoryContent.travel.sub.oversea .categoryDeals .subCategoryTabList{margin-bottom:0;border-bottom:0}.categoryContent.travel.sub.oversea .categoryDeals .subCategoryTabList .sortByList{width:auto;margin-top:12px;right:0;position:absolute}
+
+
+
+
+
+
+
+
+
+
+
+
+

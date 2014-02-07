@@ -1,0 +1,63 @@
+<?php 
+$cnt = 1;
+foreach ($deal_info as $key => $deal) :
+	if($curr_cnt > $key) {continue;} else { $cnt++; }
+	if($cnt == 6) {break;}
+?>
+<li>
+        <div class="dealunit" deal_id="<?php echo $deal->deal_id; ?>" item_cnt=<?php echo $key; ?>>
+            <a class="dealunit-link" href="/deal.pang?coupang=54679835&amp;areacode=MRC" data-cclick="SHOPPING_MAIN_IMAGEVIEW,BEST,,0">
+                        <div class="dealunit-best dealunit-best__no1">BEST1</div>
+                <div class="dealunit-thumb">
+                    <div class="dealunit-thumb-box">
+                        <div class="dealunit-img">
+                                <img src="http://<?php echo str_replace("/home/gagamel/cdn", "image.wemakeprice.com", $deal->img_onecut); ?>" width="292" height="292" alt="" />
+            </div>
+                        <div class="dealunit-badges">
+
+                                    <span class="dealunit-badge dealunit-badge__fixed">무료배송</span>
+                        </div>
+
+                        <div class="dealunit-soldout">
+                        </div>
+
+                        <div class="dealunit-decoline">
+                        </div>
+                    </div>
+                </div>
+                <div class="dealunit-head">
+                    <p class="dealunit-desc"><?php echo $deal->line_summary; ?></p>
+                    <p class="dealunit-title"><?php echo $deal->main_name; ?></p>
+                </div>
+                <div class="dealunit-body">
+                    <div class="dealunit-type">
+                    </div>
+                    <div class="dealunit-price">
+                        <div class="dealunit-price-originalvalue">
+                        </div>
+                        <div class="dealunit-price-value">
+                            <strong><?php echo $deal->price; ?></strong><span class="unit">원</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dealunit-foot">
+                    <div class="dealunit-foot-box">
+                        <div class="dealunit-labels">
+                        </div>
+                        <div class="dealunit-buyinfo">
+                                <em class="dealunit-buyinfo-count">준비중...</em>개 구매중
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <i class="dealunit-border dealunit-border__top"></i>
+            <i class="dealunit-border dealunit-border__right"></i>
+            <i class="dealunit-border dealunit-border__bottom"></i>
+            <i class="dealunit-border dealunit-border__left"></i>
+            <a class="dealunit-popup" href="/deal.pang?coupang=54679835&amp;areacode=MRC" data-cclick="PLP,POP_UP,," target="_blank" title="새창열기">새창열기</a>
+        </div>
+
+                            </li>
+<?php 
+endforeach;
+?>
